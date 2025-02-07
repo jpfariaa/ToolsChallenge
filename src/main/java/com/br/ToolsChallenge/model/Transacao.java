@@ -19,6 +19,10 @@ public class Transacao {
         this.status = "AUTORIZADO";
     }
 
+    public Transacao() {
+        
+    }
+
     public void cancelar() {
         this.status = "CANCELADO";
     }
